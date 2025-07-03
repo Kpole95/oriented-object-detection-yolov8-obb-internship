@@ -34,14 +34,17 @@ Here are a few examples of model predictions from the test set:
 ### Successful Detections:
 
 ![Successful Detection - Tennis Courts](https://github.com/Kpole95/oriented-object-detection-yolov8-obb-internship/blob/main/runs/obb/predict2/P0463_png.rf.eda446f96e380a0a67a51e094a22ac36.jpg)
+
 *Caption: Model prediction showing multiple tennis courts with accurate rotated bounding boxes and high confidence scores.*
 
 ![Successful Detection - Houses](https://github.com/Kpole95/oriented-object-detection-yolov8-obb-internship/blob/main/runs/obb/predict2/P0444_png.rf.3cab4de975fdd5d1f8d91d4e8b5d6da7.jpg)
+
 *Caption: Successful detection of several houses in a varied environment, accurately localized with properly oriented bounding boxes.*
 
 ### Challenging Cases:
 
 ![Challenging Case - Missed Detections](https://github.com/Kpole95/oriented-object-detection-yolov8-obb-internship/blob/main/runs/obb/predict2/P0451_png.rf.e64067be4d7a25530e26df81d3bf14e7.jpg)
+
 *Caption: A challenging scenario where only one of several tennis courts is detected, and its orientation is simplified to horizontal, showing missed detections and a need for improvement.*
 
 ---
