@@ -29,8 +29,31 @@ The fine-tuned YOLOv8-OBB model showed promising results:
 
 Here are a few examples of model predictions from the test set:
 
+*(**Replace these placeholders with actual images.** You can drag and drop on GitHub's README editor or use image paths like `runs/obb/predictX/P0463_png.rf.eda446f96e380a0a67a51e094a22ac36.jpg`)*
 
-/home/krishnapole/all/gray-sci-labs/runs/obb/predict2/P0463_png.rf.eda446f96e380a0a67a51e094a22ac36.jpg
-/home/krishnapole/all/gray-sci-labs/runs/obb/predict2/P0444_png.rf.3cab4de975fdd5d1f8d91d4e8b5d6da7.jpg
-/home/krishnapole/all/gray-sci-labs/runs/obb/predict2/P0196_png.rf.a0ab4b1e6a7fe9678057845aef85096d.jpg
+### Successful Detections:
 
+![Successful Detection - Tennis Courts](path/to/P0463_png.rf.eda446f96e380a0a67a51e094a22ac36.jpg)
+*Caption: Model prediction showing multiple tennis courts with accurate rotated bounding boxes and high confidence scores.*
+
+![Successful Detection - Houses](path/to/P0444_png.rf.3cab4de975fdd5d1f8d91d4e8b5d6da7.jpg)
+*Caption: Successful detection of several houses in a varied environment, accurately localized with properly oriented bounding boxes.*
+
+### Challenging Cases:
+
+![Challenging Case - Missed Detections](path/to/P0451_png.rf.e64067be4d7a25530e26df81d3bf14e7.jpg)
+*Caption: A challenging scenario where only one of several tennis courts is detected, and its orientation is simplified to horizontal, showing missed detections and a need for improvement.*
+
+---
+
+## Full Report
+
+For a detailed overview of the project methodology, evaluation results, and further insights, please refer to the full report:
+
+[https://github.com/Kpole95/oriented-object-detection-yolov8-obb-internship/blob/main/reports/Oriented%20Object%20Detection%20for%20Houses%20and%20Tennis%20Courts%20using%20YOLOv8-Murali%20Krishna%20Pole.pdf]
+
+## Acknowledgments
+
+This project was completed as part of an AI/ML internship assessment.
+
+---
