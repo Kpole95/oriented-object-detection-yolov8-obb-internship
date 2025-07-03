@@ -1,0 +1,7 @@
+path: /home/krishnapole/all/gray-sci-labs/datasets/obb
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['house', 'tennis court']

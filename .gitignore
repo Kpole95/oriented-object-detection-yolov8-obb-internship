@@ -1,0 +1,13 @@
+venv/
+datasets/raw_data/
+images.zip
+images.zip:Zone.Identifier
+__pycache__/
+*.ptc
+.tmp/
+yolo11n.pt
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+*.Zone.Identifier
